@@ -1,0 +1,13 @@
+/geofeed.csv
+  Content-Type: text/csv; charset=utf-8
+  Content-Disposition: inline; filename="geofeed.csv"
+  Cache-Control: public, max-age=3600, s-maxage=3600
+  X-Content-Type-Options: nosniff
+
+/subnet.csv
+  Content-Type: text/csv; charset=utf-8
+  X-Content-Type-Options: nosniff
+
+/subnets.csv
+  Content-Type: text/csv; charset=utf-8
+  X-Content-Type-Options: nosniff

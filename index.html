@@ -1,0 +1,150 @@
+<!-- © Senko Digital LLC -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Geofeed Locations for AS213520 at Senko Digital LLC">
+  <meta name="keywords" content="geofeed, senko, digital, senko digital, locations, subnets">
+  <meta name="author" content="Senko Digital">
+  <title>Geofeed - AS213520 - Senko Digital LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    body {
+      background: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        linear-gradient(120deg, #1a1a1a 0%, #0a0a0a 100%);
+      background-attachment: fixed;
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        linear-gradient(90deg, #000 21px, transparent 1%) center,
+        linear-gradient(#000 21px, transparent 1%) center,
+        rgba(60, 60, 60, 0.1);
+      background-size: 22px 22px;
+      pointer-events: none;
+    }
+
+    .main {
+      text-align: center;
+      padding: 5rem;
+      background: rgba(17, 17, 17, 0.8);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 24px;
+      width: 100%;
+      max-width: 800px;
+      margin: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+    }
+
+    p {
+      color: #666;
+      font-size: 1.125rem;
+      margin-bottom: 3rem;
+      font-weight: 500;
+    }
+
+    .geolink {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.125rem;
+      font-weight: 600;
+      padding: 1rem 2.5rem;
+      border-radius: 8px;
+      background: #2563eb;
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .geolink:hover {
+      background: #1d4ed8;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .logo {
+      margin-bottom: 3rem;
+      position: relative;
+    }
+
+    .logo img {
+      width: 180px;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .main {
+        padding: 3rem 2rem;
+        margin: 1rem;
+      }
+
+      h1 {
+        font-size: 2.25rem;
+      }
+
+      .geolink {
+        font-size: 1rem;
+        padding: 0.875rem 2rem;
+      }
+
+      .logo img {
+        width: 140px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="logo">
+      <img src="logo.svg" alt="Senko Digital LLC Logo">
+    </div>
+    <h1>Geofeed for AS213520</h1>
+    <p>by <a href="https://senko.digital">senko.digital</a></p>
+    <a class="geolink" href="/geofeed.csv">geofeed.csv</a>
+  </div>
+</body>
+
+</html>
