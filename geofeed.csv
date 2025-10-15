@@ -1,4 +1,7 @@
 # prefix,country_code,region_code,city,postal,latitude,longitude
+144.31.139.0/24,DE,DE-HE,"Frankfurt am Main",60313,50.1109,8.6821
+144.31.138.0/24,DE,DE-HE,"Frankfurt am Main",60313,50.1109,8.6821
+144.31.138.0/23,DE,DE-HE,"Frankfurt am Main",60313,50.1109,8.6821
 144.31.18.0/23,FI,FI-18,Helsinki,00100,60.1699,24.9384
 144.31.16.0/23,DE,DE-HE,"Frankfurt am Main",60313,50.1109,8.6821
 144.31.197.0/24,DE,DE-HE,"Frankfurt am Main",60313,50.1109,8.6821
